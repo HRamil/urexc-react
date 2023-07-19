@@ -1,0 +1,14 @@
+@import './style/variabels.scss';
+* {
+  margin: 0;
+  padding: 0;
+  color:$black;
+  font-family: "Urexc";
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: Urexc;
+  src: url(Poppins-Medium.ttf);
+}
+

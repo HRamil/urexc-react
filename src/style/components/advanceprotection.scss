@@ -1,0 +1,77 @@
+@import './../variabels.scss';
+
+.advanceprotection {
+
+    img {
+        width: 100%;
+        margin-bottom: -7px;
+    }
+
+    >div {
+        background: #F8F8F8;
+
+        .container {
+            .row:first-child {
+                padding-top: 0;
+            }
+
+            .row {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                padding: 100px 0;
+
+                .text {
+                    h3 {
+                        width: 554px;
+                        color: var(--heading-color, #211F25);
+                        font-size: 48px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 120%;
+                        letter-spacing: -0.48px;
+                        margin-bottom: 16px;
+                    }
+
+                    p {
+                        width: 624px;
+                        color: var(--pragraph, #3D3A41);
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 155%;
+                        letter-spacing: 0.32px;
+                        margin-bottom: 40px;
+                    }
+
+                    .button {
+                        cursor: pointer;
+                        display: inline-block;
+                        padding: 16px 28px;
+                        color: #21364B;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 155%;
+                        letter-spacing: 0.16px;
+                        border-radius: 32px;
+                        border: 1px solid #21364B;
+                        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+                    }
+                }
+            }
+
+            .row:last-child {
+                >div:first-child {
+                    order: 1;
+                }
+            }
+        }
+    }
+
+
+
+
+}

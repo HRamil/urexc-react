@@ -1,0 +1,67 @@
+@import './../variabels.scss';
+
+header {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+
+    .container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+
+        .navLink {
+            padding: 22px;
+            display: flex;
+            flex-direction: row;
+
+            p {
+                color: $white;
+                padding: 13px 16px 13px 16px;
+                border-radius: 30px;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                --leading-trim: both;
+                --text-edge: cap;
+                text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+                &:hover {
+                    background: rgba(255, 255, 255, 0.30);
+                }
+            }
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+
+            .button {
+                padding: 13px 16px;
+                background: $white;
+                border-radius: 30px;
+            }
+
+            .loginButton {
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                cursor: pointer;
+                padding: 13px 16px;
+
+                .around {
+                    width: 18px;
+                    height: 18px;
+                    border-radius: 50%;
+                    background: $white;
+                }
+
+                p {
+                    color: $white;
+                }
+            }
+        }
+    }
+}
