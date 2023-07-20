@@ -1,0 +1,32 @@
+@import './../variabels.scss';
+
+.contactInfo {
+    background: #FFF;
+    padding: 10px;
+
+    .container {
+        >div:first-child {
+            width: 491px;
+            height: 647px;
+            background: #21364B;
+            padding: 40px;
+            border-radius: 20px;
+            background-image: url('./../../images/arounds.png');
+            background-position: bottom right;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+
+            * {
+                color: $white;
+            }
+
+            >div {
+                >div {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 25px;
+                }
+            }
+        }
+    }
+}

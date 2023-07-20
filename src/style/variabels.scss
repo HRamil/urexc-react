@@ -1,3 +1,12 @@
 //color
 $black: #000;
 $white: #fff;
+$appColor:#6F6C90;
+
+//font
+$font: DM-sans;
+@font-face {
+    font-family: DM-sans;
+    src: url(./../DMSans-VariableFont_opsz,wght.ttf);
+  }
+  

@@ -1,5 +1,7 @@
 import React from 'react'
 import AdvanceProtection from '../components/AdvanceProtection'
+import Applications from '../components/Applications'
+import ContactInfo from '../components/ContactInfo'
 import Parallax from '../components/Parallax'
 
 //style
@@ -10,6 +12,8 @@ function Landing() {
     <div className='landing'>
         <Parallax />
         <AdvanceProtection />
+        <Applications />
+        <ContactInfo />
     </div>
   )
 }
