@@ -32,39 +32,19 @@ function Applications() {
                         </p>
                         <ul>
                             <li>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
-                                    <g clip-path="url(#clip0_681_2052)">
-                                        <path d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z" fill="#21364B" />
-                                        <path d="M7.1167 13.8406L10.4785 17.2024L18.8831 8.79785" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </g>
-                                </svg>
+                                <div className='icon'></div>
                                 <p>All analytics features</p>
                             </li>
                             <li>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
-                                    <g clip-path="url(#clip0_681_2052)">
-                                        <path d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z" fill="#21364B" />
-                                        <path d="M7.1167 13.8406L10.4785 17.2024L18.8831 8.79785" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </g>
-                                </svg>
+                                <div className='icon'></div>
                                 <p>Up to 250,000 tracked visits</p>
                             </li>
                             <li>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
-                                    <g clip-path="url(#clip0_681_2052)">
-                                        <path d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z" fill="#21364B" />
-                                        <path d="M7.1167 13.8406L10.4785 17.2024L18.8831 8.79785" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </g>
-                                </svg>
+                                <div className='icon'></div>
                                 <p>Normal support</p>
                             </li>
                             <li>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
-                                    <g clip-path="url(#clip0_681_2052)">
-                                        <path d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z" fill="#21364B" />
-                                        <path d="M7.1167 13.8406L10.4785 17.2024L18.8831 8.79785" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </g>
-                                </svg>
+                                <div className='icon'></div>
                                 <p>Up to 3 team members</p>
                             </li>
                         </ul>
@@ -102,39 +82,19 @@ function Applications() {
                         </p>
                         <ul>
                             <li>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
-                                    <g clip-path="url(#clip0_681_2052)">
-                                        <path d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z" fill="#21364B" />
-                                        <path d="M7.1167 13.8406L10.4785 17.2024L18.8831 8.79785" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </g>
-                                </svg>
+                                <div className='icon'></div>
                                 <p>All analytics features</p>
                             </li>
                             <li>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
-                                    <g clip-path="url(#clip0_681_2052)">
-                                        <path d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z" fill="#21364B" />
-                                        <path d="M7.1167 13.8406L10.4785 17.2024L18.8831 8.79785" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </g>
-                                </svg>
+                                <div className='icon'></div>
                                 <p>Up to 1,000,000 tracked visits</p>
                             </li>
                             <li>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
-                                    <g clip-path="url(#clip0_681_2052)">
-                                        <path d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z" fill="#21364B" />
-                                        <path d="M7.1167 13.8406L10.4785 17.2024L18.8831 8.79785" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </g>
-                                </svg>
+                                <div className='icon'></div>
                                 <p>Premium support</p>
                             </li>
                             <li>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
-                                    <g clip-path="url(#clip0_681_2052)">
-                                        <path d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z" fill="#21364B" />
-                                        <path d="M7.1167 13.8406L10.4785 17.2024L18.8831 8.79785" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </g>
-                                </svg>
+                                <div className='icon'></div>
                                 <p>Up to 10 team members</p>
                             </li>
                         </ul>
@@ -170,41 +130,19 @@ function Applications() {
                         </p>
                         <ul>
                             <li>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
-                                    <g clip-path="url(#clip0_681_2052)">
-                                        <path d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z" fill="#21364B" />
-                                        <path d="M7.1167 13.8406L10.4785 17.2024L18.8831 8.79785" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </g>
-                                </svg>
+                                <div className='icon'></div>
                                 <p>All analytics features</p>
                             </li>
                             <li>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
-                                    <g clip-path="url(#clip0_681_2052)">
-                                        <path d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z" fill="#21364B" />
-                                        <path d="M7.1167 13.8406L10.4785 17.2024L18.8831 8.79785" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </g>
-                                    <defs>
-                                    </defs>
-                                </svg>
+                                <div className='icon'></div>
                                 <p>Up to 5,000,000 tracked visits</p>
                             </li>
                             <li>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
-                                    <g clip-path="url(#clip0_681_2052)">
-                                        <path d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z" fill="#21364B" />
-                                        <path d="M7.1167 13.8406L10.4785 17.2024L18.8831 8.79785" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </g>
-                                </svg>
+                                <div className='icon'></div>
                                 <p>Dedicated support</p>
                             </li>
                             <li>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
-                                    <g clip-path="url(#clip0_681_2052)">
-                                        <path d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z" fill="#21364B" />
-                                        <path d="M7.1167 13.8406L10.4785 17.2024L18.8831 8.79785" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </g>
-                                </svg>
+                                <div className='icon'></div>
                                 <p>Up to 50 team members</p>
                             </li>
                         </ul>
