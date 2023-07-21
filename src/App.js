@@ -5,6 +5,7 @@ import Landing from './pages/Landing';
 
 //style
 import './App.scss';
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Landing />} />
         </Routes>
+
+        <Footer />
       </BrowserRouter>
     </div>
   );

@@ -11,6 +11,9 @@
 
     .container {
         width: 1280px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
 
         .text {
             p:nth-child(1) {
@@ -41,6 +44,103 @@
                 line-height: 26px;
                 color: $white;
             }
+        }
+
+        .searchFrom {
+            width: 420px;
+            border-radius: 30px;
+            background: $white;
+            box-shadow: 10px 30px 50px 0px rgba(0, 0, 0, 0.05);
+            padding: 40px 0 60px 0;
+
+            >div {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                border-bottom: 1px solid #AAA;
+                h3 {
+                    padding-bottom: 21.5;
+                    width: 150px;
+                    border-bottom: 3px solid #21364B;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    text-align: center;
+                }
+            }
+
+            form {
+                width: 340px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-top: 20px;
+                margin: auto;
+
+                .form-group {
+                    border-radius: 20px;
+                    background: rgba(212, 212, 212, 0.20);
+                    margin-top: 30px;
+
+                    input {
+                        background: transparent;
+                        width: 100%;
+                        border: none;
+                        outline: none;
+                        padding: 25px 25px 20px 20px;
+
+                        &::placeholder {
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 26px;
+                            color: rgba(109, 106, 117, 0.50);
+                        }
+                    }
+
+                    .select {
+                        padding: 25px 20px;
+
+                        .option {
+                            color: rgba(109, 106, 117, 0.50);
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 26px;
+                            opacity: 1;
+                        }
+
+                        svg {
+                            right: 20px;
+                        }
+                    }
+
+
+                }
+
+                button {
+                    margin-top: 20px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    gap: 10px;
+                    padding: 20px 0;
+                    cursor: pointer;
+                    border: none;
+                    background: #21364B;
+                    border-radius: 30px;
+
+                    p {
+                        color: $white;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                }
+            }
+
         }
     }
 

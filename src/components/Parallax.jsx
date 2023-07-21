@@ -4,6 +4,10 @@ import React from 'react'
 import './../style/components/parallax.scss'
 
 function Parallax() {
+  function submitHandler() {
+
+  }
+
   return (
     <div className='parallax'>
       <div className="container">
@@ -11,6 +15,36 @@ function Parallax() {
           <p>Real Estate</p>
           <p>Find a perfect home you love..!</p>
           <p>Etiam eget elementum elit. Aenean dignissim dapibus vestibulum. Integer a dolor eu sapien sodales vulputate ac in purus.</p>
+        </div>
+
+        <div className='searchFrom'>
+          <div>
+            <h3>
+              For Sale
+            </h3>
+          </div>
+          <form onSubmit={submitHandler}>
+            <div className='form-group'>
+              <input id="name" type="text" required placeholder='New York, San Francisco, etc' />
+            </div>
+            <div className="form-group">
+              <div className='select'>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="7" viewBox="0 0 14 7" fill="none">
+                  <path d="M7.58521 6.57766C7.23581 6.82982 6.76419 6.82982 6.41479 6.57767L0.848983 2.56089C0.0621447 1.99304 0.46384 0.750001 1.43419 0.750001L12.5658 0.75C13.5362 0.75 13.9379 1.99303 13.151 2.56088L7.58521 6.57766Z" fill="#AAAAAA" />
+                </svg>
+                <div className='option'>
+                  Select Property Type
+                </div>
+              </div>
+            </div>
+            <button type='submit'>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                <path d="M9.53582 19.0716C4.27949 19.0716 0 14.7921 0 9.53582C0 4.27949 4.27949 0 9.53582 0C14.7921 0 19.0716 4.27949 19.0716 9.53582C19.0716 14.7921 14.7921 19.0716 9.53582 19.0716ZM9.53582 1.39549C5.04235 1.39549 1.39549 5.05166 1.39549 9.53582C1.39549 14.02 5.04235 17.6761 9.53582 17.6761C14.0293 17.6761 17.6761 14.02 17.6761 9.53582C17.6761 5.05166 14.0293 1.39549 9.53582 1.39549Z" fill="white" />
+                <path d="M19.3046 20.0019C19.1278 20.0019 18.9511 19.9367 18.8115 19.7972L16.9509 17.9365C16.6811 17.6667 16.6811 17.2202 16.9509 16.9504C17.2207 16.6806 17.6672 16.6806 17.937 16.9504L19.7977 18.811C20.0675 19.0808 20.0675 19.5274 19.7977 19.7972C19.6581 19.9367 19.4814 20.0019 19.3046 20.0019Z" fill="white" />
+              </svg>
+              <p>Search</p>
+            </button>
+          </form>
         </div>
       </div>
 

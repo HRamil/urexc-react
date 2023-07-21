@@ -2,6 +2,7 @@
 
 .applications {
     padding: 85px 0 24px 0;
+    background: radial-gradient(115.50% 115.50% at 50.00% 50.00%, #023160 0%, #1C2E41 51.56%, #305173 100%);
 
     * {
         font-family: $font !important;
@@ -16,7 +17,7 @@
             cursor: pointer;
             position: relative;
             border-radius: 24px;
-            border: 1px solid var(--neutral-300, #EFF0F6);
+            border: 1px solid #EFF0F6;
             background: $white;
             width: 394px;
             padding: 40px 43px 59px 43px;
@@ -138,7 +139,7 @@
             &:hover {
                 top: -34px;
                 border-radius: 24px;
-                border: 1px solid var(--neutral-300, #EFF0F6);
+                border: 1px solid #EFF0F6;
                 background: #21364B;
                 box-shadow: 0px 2px 12px 0px rgba(20, 20, 43, 0.08);
 
@@ -153,8 +154,6 @@
                 .icon {
                     background:url('./../../images/iconWhite.svg') !important ;
                 }
-                
-                
             }
         }
     }
