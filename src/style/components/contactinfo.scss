@@ -5,6 +5,10 @@
     padding: 10px;
 
     .container {
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
+
         >div:first-child {
             width: 491px;
             height: 647px;
@@ -20,12 +24,168 @@
                 color: $white;
             }
 
+            h2 {
+                margin-bottom: 144px;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+
             >div {
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+
                 >div {
                     display: flex;
                     flex-direction: row;
                     gap: 25px;
+
+                    >div {
+                        width: 288px;
+                    }
                 }
+            }
+        }
+
+        .contactUs {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h3 {
+                font-size: 22.5px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                margin-bottom: 15px;
+            }
+
+            form {
+                width: 597px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 12px;
+
+                .col6 {
+                    width: 292px;
+                }
+
+                .col12 {
+                    width: 100%;
+                }
+
+                .form-group {
+                    position: relative;
+
+                    border-radius: 11.25px;
+                    border: 0.75px solid #F0F0F3;
+                    background: #F6F6F6;
+
+                    label {
+                        position: absolute;
+                        top: 50%;
+                        transform: translate(0, -50%);
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        opacity: 0.30000001192092896;
+                        transition: .3s;
+                        left: 15px;
+                    }
+
+                    input {
+                        z-index: 1;
+                        background: transparent;
+                        outline: none;
+                        border: none;
+                        width: 100%;
+                        padding: 21.5px 15px 8.5px 15px;
+
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+
+                    }
+
+                    input:focus~label {
+                        font-size: 10.5px;
+                        top: 30%;
+                    }
+
+                    .select {
+                        position: relative;
+                        padding: 15px;
+
+                        .option {
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                            opacity: 0.30000001192092896;
+                        }
+
+                        svg {
+                            position: absolute;
+                            right: 15px;
+                            top: 50%;
+                            transform: translate(0, -50%);
+                        }
+                    }
+
+
+                    textarea {
+                        width: 100%;
+                        background: transparent;
+                        border: none;
+                        padding: 30px 15px 15px 15px;
+                        outline: none;
+                        resize: none;
+                        height: 105px;
+
+                        &::placeholder {
+                            opacity: 0.20000000298023224;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                    }
+
+                }
+
+                .textarea {
+                    label {
+                        top: 12px;
+                        transform: translate(0);
+                    }
+                }
+
+                .button {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row-reverse;
+
+                    button {
+                        cursor: pointer;
+                        color: $white;
+                        padding: 15px 15px;
+                        text-align: center;
+                        width: 186px;
+                        font-size: 15px;
+                        border-radius: 11.25px;
+                        background: #21364B;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        border: none;
+                    }
+                }
+
             }
         }
     }
