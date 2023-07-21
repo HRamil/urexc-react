@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 //style
@@ -8,8 +8,20 @@ import './../style/components/header.scss'
 import logo from './../images/logo.png'
 
 function Header() {
+const [state, setState] =useState(false)
+
+    const addClassScroll = () => {
+        const scroll = document.documentElement.scrollTop
+        if (scroll > 200) {
+            setState(true)
+        }
+        else {
+            setState(false)
+        }
+    }
+    window.addEventListener('scroll', addClassScroll)
     return (
-        <header>
+        <header className={state?"bg-color" : null}>
             <div className="container">
                 <div className="navLink">
                     <Link to="/">
