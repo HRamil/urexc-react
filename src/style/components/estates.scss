@@ -1,0 +1,60 @@
+@import './../variabels.scss';
+
+.estate {
+    background: #F8F8F8;
+    padding: 0 0 73px 47px;
+
+    .text {
+        padding-right: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        h4 {
+            color: #21364B;
+            font-size: 19.4px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 2.91px;
+            margin-bottom: 19px;
+        }
+
+        h3 {
+            color: #2B2B2B;
+            font-size: 39.8px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 47px;
+            margin-bottom: 41px;
+        }
+
+        p {
+            width: 718px;
+            color: #808080;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            margin-bottom: 50px;
+        }
+
+        .button {
+            width: 80px;
+            height: 59px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 30px;
+            border: 1px solid #21364B;
+            background: $white;
+            color: #21364B;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+}
