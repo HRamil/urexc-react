@@ -1,8 +1,57 @@
 @import './../variabels.scss';
 
-.estate {
+.estates {
     background: #F8F8F8;
     padding: 0 0 73px 47px;
+
+    .estate {
+        width: 340px;
+
+        .image {
+            position: relative;
+
+            .popular {
+                background: #FFE1E1;
+
+                p {
+                    color: #FF1111;
+                }
+            }
+
+            .new-listing {
+                background: #D7EEFF;
+
+                p {
+                    color: #119BFF;
+                }
+            }
+
+            .discounted-price {
+                background: #F1FFF1;
+
+                p {
+                    color: #00CE3A;
+                }
+            }
+
+            .type {
+                padding: 10px 24px;
+                bottom: 30px;
+                left: 30px;
+                position: absolute;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                border-radius: 20px;
+
+                img {
+                    height: 21px;
+                }
+            }
+        }
+    }
 
     .text {
         padding-right: 100px;
@@ -41,6 +90,7 @@
         }
 
         .button {
+            cursor: pointer;
             width: 80px;
             height: 59px;
             display: flex;
