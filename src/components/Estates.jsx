@@ -44,22 +44,41 @@ function Estates() {
         },
         {
             type: 'New Listing',
-            image: require('./../images/home.svg'),
+            image: require('./../images/home.png'),
             class: 'new-listing'
         },
         {
             type: 'Discounted Price',
-            image: require('./../images/discount.svg'),
-            class: '',
+            image: require('./../images/discount.png'),
+            class: 'discounted-price',
         }
     ]
 
     const settings = {
-        dots: true,
         infinite: true,
-        speed: 500,
-        slidesToShow: 3.5,
-        slidesToScroll: 1
+        slidesToShow: 3,
+        slidesToScrol: 1,
+        autoplay: true,
+        speed: 2000,
+        autoplaySpeed: 3000,
+        cssEase: "linear",
+        initialSlide: 0,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            },
+        ]
     };
 
     return (

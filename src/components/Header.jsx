@@ -21,7 +21,7 @@ const [state, setState] =useState(false)
     }
     window.addEventListener('scroll', addClassScroll)
     return (
-        <header className={state?"bg-color" : null}>
+        <header className={state? "bg-color" : null}>
             <div className="container">
                 <div className="navLink">
                     <Link to="/">

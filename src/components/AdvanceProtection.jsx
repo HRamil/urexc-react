@@ -11,7 +11,7 @@ import './../style/components/advanceprotection.scss'
 function AdvanceProtection() {
     return (
         <div className='advanceprotection'>
-            <img src={bg} alt="background" />
+            <img className='bg' src={bg} alt="background" />
             <div>
                 <div className='container'>
                     <div className='row'>
