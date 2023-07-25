@@ -9,34 +9,45 @@ import logo from './../images/logo.png'
 
 function Header() {
     const [state, setState] = useState(false)
+    const [hamburgerMenu, setHamburgerMenu] = useState(false)
 
     const addClassScroll = () => {
         const scroll = document.documentElement.scrollTop
-        if (scroll > 200) {
+        if (scroll > 100) {
             setState(true)
         }
         else {
             setState(false)
         }
     }
-
     window.addEventListener('scroll', addClassScroll)
+
+    function hamburgerSlide() {
+        if (hamburgerMenu === false) {
+            setHamburgerMenu(true)
+            document.body.style.overflow = 'hidden';
+        }
+        else {
+            setHamburgerMenu(false)
+            document.body.style.overflow = 'auto';
+        }
+    }
+
     return (
         <header className={state ? "bg-color" : null}>
             <div className='mobileHeader'>
                 <div className='logo'>
                     <img src={logo} alt="" />
                 </div>
-                <div className='hamburger-menu'>
-                    <input type="checkbox" />
-                    <div>
+                <div className='hamburger-menu' onClick={hamburgerSlide}>
+                    <div className={hamburgerMenu ? 'active' : ''}>
                         <span></span>
                         <span></span>
                         <span></span>
                     </div>
                 </div>
             </div>
-            <div className='menu'>
+            <div className={hamburgerMenu ? 'menu hamburgerSlide' : 'menu'}>
                 <div className="container">
                     <div className="navLink">
                         <Link to="/">

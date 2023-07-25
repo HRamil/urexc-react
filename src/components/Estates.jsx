@@ -83,51 +83,54 @@ function Estates() {
 
     return (
         <div className='estates'>
-            <div className='text'>
-                <div>
-                    <h4>
-                        CHECKOUT OUR NEW
-                    </h4>
-                    <h3>
-                        Best Real Estate
-                    </h3>
-                    <p>
-                        Lorem Ipsum has been the industry's standard dummy text ever since Lorem Ipsum has been the industry's standard dummy text ever since
-                    </p>
+            <div className="container">
+                <div className='text'>
+                    <div>
+                        <h4>
+                            CHECKOUT OUR NEW
+                        </h4>
+                        <h3>
+                            Best Real Estate
+                        </h3>
+                        <p>
+                            Lorem Ipsum has been the industry's standard dummy text ever since Lorem Ipsum has been the industry's standard dummy text ever since
+                        </p>
+                    </div>
+                    <div className='button'>
+                        All
+                    </div>
                 </div>
-                <div className='button'>
-                    All
-                </div>
-            </div>
-            <Slider {...settings}>
-                {estates.map(estate => {
-                    return (
-                        <div className='estate'>
-                            <div className="image">
-                                <img src={estate.image} alt="" />
 
-                                {types.map(type => {
-                                    if (type.type === estate.type) {
-                                        return (
-                                            <div className={`type  ${type.class}`}>
-                                                <img src={type.image} alt="" />
-                                                <p>
-                                                    {type.type}
-                                                </p>
-                                            </div>
-                                        )
-                                    }
-                                })}
+                <Slider {...settings}>
+                    {estates.map(estate => {
+                        return (
+                            <div className='estate'>
+                                <div className="image">
+                                    <img src={estate.image} alt="" />
+
+                                    {types.map(type => {
+                                        if (type.type === estate.type) {
+                                            return (
+                                                <div className={`type  ${type.class}`}>
+                                                    <img src={type.image} alt="" />
+                                                    <p>
+                                                        {type.type}
+                                                    </p>
+                                                </div>
+                                            )
+                                        }
+                                    })}
+                                </div>
+                                <div className='estateInfo'>
+                                    <p>{estate.price}</p>
+                                    <h3>{estate.title}</h3>
+                                    <h4>{estate.location}</h4>
+                                </div>
                             </div>
-                            <div className='estateInfo'>
-                                <p>{estate.price}</p>
-                                <h3>{estate.title}</h3>
-                                <h4>{estate.location}</h4>
-                            </div>
-                        </div>
-                    )
-                })}
-            </Slider>
+                        )
+                    })}
+                </Slider>
+            </div>
         </div>
     )
 }

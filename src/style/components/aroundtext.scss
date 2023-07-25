@@ -4,8 +4,17 @@
     position: absolute;
     top: 100vh;
     left: 50%;
-    transform: translate(-50%, 150%);
+    transform: translate(-50%, 80%);
     transition: 1s;
+    width: 130px;
+
+    img:first-child {
+        width: 100%;
+    }
+
+    img:last-child {
+        width: 30px;
+    }
 
     .roatetimage {
         animation: rotate-animation 10s infinite linear;
@@ -35,4 +44,25 @@
 
 .aroundScroll {
     transform: translate(-50%, 0);
+    z-index: 99;
+
+}
+
+
+@media (min-width: $tablet) {}
+
+@media (min-width: $desktop) {
+    .aroundText {
+        width: 201px;
+        transform: translate(-50%, 100%);
+
+        img:last-child {
+            width: 44px;
+        }
+    }
+
+    .aroundScroll {
+        transform: translate(-50%, 0);
+        z-index: 0;
+    }
 }

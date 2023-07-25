@@ -2,7 +2,7 @@
 
 .estates {
     background: #F8F8F8;
-    padding: 0 0 73px 47px;
+    padding: 0 0 73px 0;
     overflow: hidden;
 
     .estate {
@@ -86,15 +86,17 @@
     }
 
     .text {
-        padding-right: 100px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        >div{
+            width: 70%;
+        }
 
         h4 {
             color: #21364B;
-            font-size: 19.4px;
+            font-size: 16px;
             font-style: normal;
             font-weight: 500;
             line-height: normal;
@@ -104,15 +106,14 @@
 
         h3 {
             color: #2B2B2B;
-            font-size: 39.8px;
+            font-size: 26px;
             font-style: normal;
             font-weight: 600;
             line-height: 47px;
-            margin-bottom: 41px;
+            margin-bottom: 25px;
         }
 
         p {
-            width: 718px;
             color: #808080;
             font-size: 16px;
             font-style: normal;
@@ -122,7 +123,7 @@
         }
 
         .button {
-            cursor: pointer;
+            cursor: pointer ;
             width: 80px;
             height: 59px;
             display: flex;
