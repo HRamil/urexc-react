@@ -8,7 +8,7 @@ import './../style/components/header.scss'
 import logo from './../images/logo.png'
 
 function Header() {
-const [state, setState] =useState(false)
+    const [state, setState] = useState(false)
 
     const addClassScroll = () => {
         const scroll = document.documentElement.scrollTop
@@ -19,42 +19,55 @@ const [state, setState] =useState(false)
             setState(false)
         }
     }
+
     window.addEventListener('scroll', addClassScroll)
     return (
-        <header className={state? "bg-color" : null}>
-            <div className="container">
-                <div className="navLink">
-                    <Link to="/">
-                        <p>
-                            Platform
-                        </p>
-                    </Link>
-                    <Link to="/">
-                        <p>
-                            Features
-                        </p>
-                    </Link>
-                    <Link to="/">
-                        <p>
-                            Who we serve
-                        </p>
-                    </Link>
-                    <Link to="/">
-                        <p>
-                            Resources
-                        </p>
-                    </Link>
-                </div>
+        <header className={state ? "bg-color" : null}>
+            <div className='mobileHeader'>
                 <div className='logo'>
                     <img src={logo} alt="" />
                 </div>
-                <div className='buttons'>
-                    <div className='loginButton'>
-                        <div className='around'></div>
-                        <p>Login/Register</p>
+                <div className='hamburger-menu'>
+                    <input type="checkbox" />
+                    <div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
-                    <div className='button'>
-                        Add a listing
+                </div>
+            </div>
+            <div className='menu'>
+                <div className="container">
+                    <div className="navLink">
+                        <Link to="/">
+                            <p>
+                                Platform
+                            </p>
+                        </Link>
+                        <Link to="/">
+                            <p>
+                                Features
+                            </p>
+                        </Link>
+                        <Link to="/">
+                            <p>
+                                Who we serve
+                            </p>
+                        </Link>
+                        <Link to="/">
+                            <p>
+                                Resources
+                            </p>
+                        </Link>
+                    </div>
+                    <div className='buttons'>
+                        <div className='loginButton'>
+                            <div className='around'></div>
+                            <p>Login/Register</p>
+                        </div>
+                        <div className='button'>
+                            Add a listing
+                        </div>
                     </div>
                 </div>
             </div>

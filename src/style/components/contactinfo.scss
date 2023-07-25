@@ -7,11 +7,12 @@
     .container {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         gap: 70px;
 
         >div:first-child {
-            width: 491px;
-            height: 647px;
+            width: 100%;
+            height: 500px;
             background: #21364B;
             padding: 40px;
             border-radius: 20px;
@@ -24,8 +25,8 @@
             }
 
             h2 {
-                margin-bottom: 144px;
-                font-size: 28px;
+                margin-bottom: 70px;
+                font-size: 24px;
                 font-style: normal;
                 font-weight: 600;
                 line-height: normal;
@@ -34,7 +35,7 @@
             >div {
                 display: flex;
                 flex-direction: column;
-                gap: 50px;
+                gap: 30px;
 
                 >div {
                     display: flex;
@@ -62,7 +63,7 @@
             }
 
             form {
-                width: 597px;
+                width: 100%;
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
@@ -70,7 +71,7 @@
 
                 .form-group {
                     position: relative;
-
+                    width: 100%;
                     border-radius: 11.25px;
                     border: 0.75px solid #F0F0F3;
                     background: #F6F6F6;
@@ -157,6 +158,113 @@
                     }
                 }
 
+            }
+        }
+    }
+}
+
+@media (min-width: $tablet) {}
+
+@media (min-width: $desktop) {
+    .contactInfo {
+        padding: 10px;
+
+        .container {
+            gap: 70px;
+
+            >div:first-child {
+                width: 491px;
+                height: 647px;
+                padding: 40px;
+                border-radius: 20px;
+
+                h2 {
+                    margin-bottom: 144px;
+                    font-size: 28px;
+                    font-weight: 600;
+                }
+
+                >div {
+                    gap: 50px;
+
+                    >div {
+                        gap: 25px;
+
+                        >div {
+                            width: 288px;
+                        }
+                    }
+                }
+            }
+
+            .contactUs {
+
+                h3 {
+                    font-size: 22.5px;
+                    margin-bottom: 15px;
+                }
+
+                form {
+                    width: 597px;
+                    flex-wrap: wrap;
+                    gap: 12px;
+
+                    .form-group {
+                        border-radius: 11.25px;
+
+                        label {
+                            font-size: 12px;
+                            font-weight: 500;
+                            opacity: 0.30000001192092896;
+                            transition: .3s;
+                        }
+
+                        input {
+                            padding: 21.5px 15px 8.5px 15px;
+
+                            font-size: 12px;
+                            font-weight: 600;
+
+                        }
+
+                        input:focus~label {
+                            font-size: 10.5px;
+                            top: 30%;
+                        }
+
+
+                        textarea {
+                            width: 100%;
+                            padding: 30px 15px 15px 15px;
+                            height: 105px;
+
+                            &::placeholder {
+                                opacity: 0.20000000298023224;
+                                font-size: 12px;
+                                font-weight: 400;
+                            }
+                        }
+
+                    }
+
+                    .textarea {
+                        label {
+                            top: 12px;
+                        }
+                    }
+
+                    .button {
+                        width: 100%;
+
+                        button {
+                            padding: 15px 15px;
+                            width: 186px;
+                            font-size: 15px;
+                            border-radius: 11.25px;
+                        }
+                    }
+
+                }
             }
         }
     }

@@ -9,6 +9,8 @@ footer {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            gap: 30px;
+            flex-wrap: wrap;
 
             .contact {
 
@@ -23,7 +25,7 @@ footer {
 
 
                 .row {
-                    width: 188px;
+                    width: 100%;
                     display: flex;
                     flex-direction: row;
                     align-items: center;
@@ -59,6 +61,7 @@ footer {
             }
 
             .column {
+                width: 100%;
                 display: flex;
                 flex-direction: column;
                 gap: 40px;
@@ -155,7 +158,7 @@ footer {
         }
     }
 
-    section:last-child{
+    section:last-child {
         background: #0B090A;
         padding: 7px;
 
@@ -163,6 +166,8 @@ footer {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            gap: 0;
+            flex-wrap: nowrap;
 
             div {
                 display: flex;
@@ -179,4 +184,138 @@ footer {
             }
         }
     }
+}
+
+@media (min-width: $tablet) {}
+
+@media (min-width: $desktop) {
+    footer {
+        section:first-child {
+
+            .container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .contact {
+
+                    .row:nth-child(1),
+                    .row:nth-child(3) {
+                        margin-bottom: 32px;
+                    }
+
+                    .row:nth-child(2) {
+                        margin-bottom: 48px;
+                    }
+
+
+                    .row {
+                        width: 188px;
+                        gap: 8px;
+
+                        .logo {
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50%;
+                        }
+
+                        h3 {
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+
+                        p {
+                            font-size: 16px;
+                            font-weight: 500;
+                        }
+                    }
+                }
+
+                .column {
+                    gap: 40px;
+
+                    .row {
+                        h3 {
+                            font-size: 19.4px;
+                            font-weight: 500;
+                        }
+                    }
+
+                    .links {
+                        gap: 8px;
+
+                        .link {
+                            p {
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 26px;
+                            }
+                        }
+                    }
+                }
+
+                .subscribe {
+                    .row {
+                        margin-bottom: 21px;
+
+                        h3 {
+                            width: 254px;
+                            font-size: 19.4px;
+                            font-weight: 500;
+                        }
+                    }
+
+                    .form-group {
+                        width: 350px;
+                        border-radius: 10px;
+                        margin-bottom: 32px;
+
+                        .arrow {
+                            width: 50px;
+                            height: 50px;
+                            right: 5px;
+                        }
+
+                        input {
+                            padding: 25px 20px 25px 20px;
+                        }
+                    }
+
+                    .sosial-icon {
+                        p {
+                            font-size: 19.4px;
+                            font-weight: 500;
+                            margin-bottom: 30px;
+                        }
+
+                        div {
+                            gap: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        section:last-child {
+
+            .container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                div {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 40px;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+
 }

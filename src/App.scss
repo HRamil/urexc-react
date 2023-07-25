@@ -2,9 +2,9 @@
 
 .container {
   max-width: 1280px;
+  padding: 0 15px;
   margin: auto;
 }
-
 
 .col6 {
   width: 292px;
@@ -31,5 +31,13 @@
     right: 15px;
     top: 50%;
     transform: translate(0, -50%);
+  }
+}
+
+@media (min-width: $tablet) {}
+
+@media (min-width: $desktop) {
+  .container {
+    padding: 0;
   }
 }

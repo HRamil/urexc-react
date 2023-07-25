@@ -118,7 +118,11 @@ function Estates() {
                                         )
                                     }
                                 })}
-
+                            </div>
+                            <div className='estateInfo'>
+                                <p>{estate.price}</p>
+                                <h3>{estate.title}</h3>
+                                <h4>{estate.location}</h4>
                             </div>
                         </div>
                     )
