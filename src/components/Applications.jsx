@@ -6,7 +6,7 @@ function Applications() {
     return (
         <div className='applications'>
             <div className="container">
-                <div className="application">
+                <div className="application" title='coming soon'>
                     <p className='whatFor'>
                         For individuals
                     </p>
@@ -53,7 +53,7 @@ function Applications() {
                         Get started
                     </div>
                 </div>
-                <div className="application">
+                <div className="application" title='coming soon'>
                     <div className="popular">
                         Popular
                     </div>
@@ -104,7 +104,7 @@ function Applications() {
                         Get started
                     </div>
                 </div>
-                <div className="application">
+                <div className="application" title='coming soon'>
                     <p className='whatFor'>
                         For big companies
                     </p>
